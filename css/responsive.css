@@ -1,0 +1,47 @@
+@media screen and (max-width:1000px){
+    .box{
+        width: 235px;
+    }
+    .box2{
+        margin-left: -100px;
+        margin: 70px;
+        float: left;
+        margin-left: -55px;
+         width: 235px;
+    }
+    .box3{
+        margin-left: -100px;
+        margin: 70px;
+        float: left;
+        margin-left: -55px;
+         width: 235px;
+         margin-top: -50px;
+    }
+}
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .box2{
+        margin-left: -200px;
+        margin: 315px;
+        float: left;
+        margin-top: -160px;
+    }
+    .box3{
+        margin-top: -290px;
+        width: 605px;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    @-ms-viewport {
+        width: 400px;
+        padding: 10px;
+    }
+}
+
+               
+
+
+
+   
+   
+
