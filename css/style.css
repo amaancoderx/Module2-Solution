@@ -1,9 +1,22 @@
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+/* all rounder variables mainly for shadows */
+:root{
+    --outer-shadow: 3px 3px 3px #e9ebe8, -3px -3px 3px #fafcf9;
+    --outer-shadow0: 3px 3px 3px #e9ebe8, -3px -3px 3px #fafcf9;
+    --inner-shadow: inset 3px 3px 3px #e5e7e5, inset -3px -3px 3px #f8f8f8;
+    --inner-shadow0: inset 3px 3px 3px #0bb80b, inset -3px -3px 3px #0d970d;
+}
 .wow{
+    margin: 15px;
     text-align: center;
     padding: 13px;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    box-sizing: border-box;
 
 }
+
 .box{
     border: 5px solid black; 
     width: 350px;
@@ -16,6 +29,7 @@
     font-weight:bold; 
     color:black; 
     margin-top:60px; 
+    box-shadow: inset 3px 3px 3px #0bb80b, inset -3px -3px 3px #0d970d;
     background-color:#9c88ff;
     border: black;
     border: 5px solid black;
@@ -58,6 +72,7 @@
     color:black; 
     margin-top:60px; 
     background-color:#e84118;
+    box-shadow: inset 3px 3px 3px #0bb80b, inset -3px -3px 3px #0d970d;
     border: black;
     border: 5px solid black;
     border-right: none;
@@ -70,6 +85,137 @@
     font-family: "Comic Sans MS", cursive, sans-serif;
     text-align: center;
     width: 100px;
+}
+.style2{
+    height: 150px;
+    margin: -50px;
+    padding: 0%;
+    padding-top: 55px;
+    background-color: rgba(0,0,0,0.3);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: initial;
+    padding-left: 6px;
+    
+}
+.box3{
+    border: 5px solid black; 
+    width: 350px;
+    height:100px; 
+    text-align:center;  
+     padding:50px;
+     margin: 940px;
+     margin-top: -600px;
+     float: left;
+}
+
+.content-namea{
+    font-size:20px; 
+    font-weight:bold; 
+    color:black; 
+    margin-top:60px; 
+    background-color:#D980FA;
+    border: black;
+    border: 5px solid black;
+    border-right: none;
+    border-top: none;
+    margin: 30px;
+    /* position: fixed; */
+    float: right;
+    margin-right: -50px;
+    margin-top: -50px;
+    padding: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    width: 100px;
+}
+.style3{
+    height: 150px;
+    margin: -50px;
+    padding: 0%;
+    padding-top: 55px;
+    background-color: rgba(0,0,0,0.3);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: initial;
+    padding-left: 6px;
+    
+}.wow{
+    text-align: center;
+    padding: 13px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+}
+.box{
+    border: 5px solid black; 
+    width: 350px;
+    height:100px; 
+    text-align:center;  
+     padding:50px;
+}
+.content-name{
+    font-size:20px; 
+    font-weight:bold; 
+    color:black; 
+    margin-top:60px; 
+    background-color:#9c88ff;
+    border: black;
+    border: 5px solid black;
+    border-right: none;
+    border-top: none;
+    margin: 30px;
+    float: right;
+    margin-right: -50px;
+    margin-top: -50px;
+    padding: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    width: 100px;
+}
+.content-name:hover{
+    box-shadow: inset 3px 3px 3px #0c18ca, inset -3px -3px 3px #0d2d97;
+}
+.style{
+    height: 150px;
+    margin: -50px;
+    padding: 0%;
+    padding-top: 55px;
+    background-color: rgba(0,0,0,0.3);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: initial;
+    padding-left: 6px;
+    
+}
+.box2{
+    border: 5px solid black; 
+    width: 350px;
+    height:100px; 
+    text-align:center;  
+     padding:50px;
+     margin: 440px;
+     margin-top: -160px;
+     float: left;
+}
+
+.content-namex{
+    font-size:20px; 
+    font-weight:bold; 
+    color:black; 
+    margin-top:60px; 
+    background-color:#e84118;
+    border: black;
+    border: 5px solid black;
+    border-right: none;
+    border-top: none;
+    margin: 30px;
+    float: right;
+    margin-right: -50px;
+    margin-top: -50px;
+    padding: 5px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    width: 100px;
+}
+.content-namex:hover{
+    box-shadow: inset 3px 3px 3px #ec5611, inset -3px -3px 3px #97390d;
 }
 .style2{
     height: 150px;
@@ -112,6 +258,9 @@
     text-align: center;
     width: 100px;
 }
+.content-namea:hover{
+    box-shadow: inset 3px 3px 3px #a711ec, inset -3px -3px 3px #6b0d97;
+}
 .style3{
     height: 150px;
     margin: -50px;
@@ -123,4 +272,3 @@
     padding-left: 6px;
     
 }
-
